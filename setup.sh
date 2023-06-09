@@ -15,10 +15,10 @@ cd $CURRENT
 rm -rf $TMPDIR
 
 
-# Set Oh My Zsh as the default shell
-export SHELL=/bin/zsh
+# # Set Oh My Zsh as the default shell
+# export SHELL=/bin/zsh
 
-# Initialize Oh My Zsh
-if [ -f ~/.zshrc ]; then
-    source ~/.zshrc
-fi
+# # Initialize Oh My Zsh
+# if [ -f ~/.zshrc ]; then
+#     source ~/.zshrc
+# fi
