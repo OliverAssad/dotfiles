@@ -8,7 +8,7 @@ sudo apt-get install -y zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # # Configure plugins
-# sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc
+sed -i 's/plugins=(git)/plugins=(zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc
 
 # # Install zsh-autosuggestions plugin
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
